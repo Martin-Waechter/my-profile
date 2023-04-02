@@ -22,6 +22,7 @@ h1 {
 
 a{
 	text-decoration: none;
+	padding: 14px;
 }
 
 a:hover {
@@ -40,19 +41,13 @@ a:hover {
 	box-shadow: 2px 2px 3px rgba(0, 43, 91, 0.15);
 }
 
-@media	(max-width: 500px) {
+@media	(max-width: 600px) {
 	.card {
 		width: 350px;
 	}
 	.card h1 {
 		font-size: 48px;
 	}
-}
-
-@media	(max-width)
-
-.icons:hover {
-	padding: 12px 5px;
 }
 
 .list-line {
